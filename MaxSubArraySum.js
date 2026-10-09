@@ -9,7 +9,7 @@ const CalculateMaxSubArr = (arr) => {
         currentSum = Math.max(arr[i], currentSum + arr[i]);
         maxSum = Math.max(maxSum, currentSum);
     }
-    return maxSum
+    return maxSum;
 }
 // console.log(maxSum)
 let result = CalculateMaxSubArr([-1, 2, 5, -5, 6])
